@@ -1,0 +1,23 @@
+.drags {
+    display: flex;
+}
+
+.drag {
+    font-size: 23px;
+    text-align: center;
+    margin-left: 20px;
+    width: 90px;
+    height: 40px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.placholder {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    width: 400px;
+    height:200px;
+    background-color: chocolate
+}
