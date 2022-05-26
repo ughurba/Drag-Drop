@@ -22,6 +22,9 @@ function handleDragDrop(e) {
     console.log(element)
     if (dataAtribute === dataPlacholder) {
         this.append(element)
+         swal("Good job!", "You clicked the button!", "success");
+    }else{
+        swal("Bad!", "You clicked the button!", "error");
     }
 
 }
